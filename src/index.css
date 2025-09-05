@@ -9,49 +9,49 @@ CareerCraft Design System - Professional SaaS theme with blues, whites, and grad
 
 @layer base {
   :root {
-    /* CareerCraft Brand Colors */
-    --background: 0 0% 100%;
-    --foreground: 215 28% 17%;
+    /* Dark Vibrant Theme Colors */
+    --background: 230 25% 8%;
+    --foreground: 0 0% 98%;
     
-    --card: 0 0% 100%;
-    --card-foreground: 215 28% 17%;
+    --card: 230 25% 12%;
+    --card-foreground: 0 0% 98%;
     
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 28% 17%;
+    --popover: 230 25% 12%;
+    --popover-foreground: 0 0% 98%;
     
-    --primary: 213 94% 68%; /* CareerCraft Blue #2B6CB0 */
+    --primary: 240 100% 35%; /* Deep Royal Blue */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 213 94% 78%;
-    --primary-dark: 213 94% 58%;
+    --primary-light: 240 100% 45%;
+    --primary-dark: 240 100% 25%;
     
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 215 28% 17%;
+    --secondary: 320 85% 50%; /* Magenta */
+    --secondary-foreground: 0 0% 100%;
     
-    --muted: 220 14% 96%; /* Light Gray #EDF2F7 */
-    --muted-foreground: 215 16% 47%;
+    --muted: 230 25% 18%;
+    --muted-foreground: 230 10% 65%;
     
-    --accent: 213 94% 68%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 130 75% 55%; /* Bright Green */
+    --accent-foreground: 230 25% 8%;
     
-    --destructive: 0 84% 60%;
+    --destructive: 350 85% 45%; /* Maroon */
     --destructive-foreground: 0 0% 100%;
     
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 213 94% 68%;
+    --border: 230 25% 20%;
+    --input: 230 25% 20%;
+    --ring: 240 100% 35%;
     
     --radius: 0.75rem;
     
-    /* Custom CareerCraft Design Tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(213 94% 68%), hsl(213 94% 78%));
-    --gradient-hero: linear-gradient(135deg, hsl(213 94% 68%) 0%, hsl(213 94% 78%) 50%, hsl(220 14% 96%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 14% 96%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 14% 98%));
+    /* Dark Vibrant Design Tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(240 100% 35%), hsl(320 85% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(240 100% 35%) 0%, hsl(320 85% 50%) 50%, hsl(130 75% 55%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(230 25% 8%), hsl(230 25% 12%));
+    --gradient-card: linear-gradient(145deg, hsl(230 25% 12%), hsl(230 25% 15%));
     
-    --shadow-sm: 0 2px 4px -1px hsl(213 94% 68% / 0.1);
-    --shadow-md: 0 4px 6px -1px hsl(213 94% 68% / 0.1), 0 2px 4px -1px hsl(213 94% 68% / 0.06);
-    --shadow-lg: 0 10px 15px -3px hsl(213 94% 68% / 0.1), 0 4px 6px -2px hsl(213 94% 68% / 0.05);
-    --shadow-glow: 0 0 0 1px hsl(213 94% 68% / 0.05), 0 0 20px hsl(213 94% 68% / 0.1);
+    --shadow-sm: 0 2px 4px -1px hsl(240 100% 35% / 0.2);
+    --shadow-md: 0 4px 6px -1px hsl(240 100% 35% / 0.2), 0 2px 4px -1px hsl(320 85% 50% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(240 100% 35% / 0.2), 0 4px 6px -2px hsl(320 85% 50% / 0.1);
+    --shadow-glow: 0 0 0 1px hsl(240 100% 35% / 0.1), 0 0 30px hsl(320 85% 50% / 0.3);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -68,38 +68,38 @@ CareerCraft Design System - Professional SaaS theme with blues, whites, and grad
   }
 
   .dark {
-    --background: 215 28% 17%;
+    --background: 230 25% 5%;
     --foreground: 0 0% 98%;
     
-    --card: 215 28% 17%;
+    --card: 230 25% 8%;
     --card-foreground: 0 0% 98%;
     
-    --popover: 215 28% 17%;
+    --popover: 230 25% 8%;
     --popover-foreground: 0 0% 98%;
     
-    --primary: 213 94% 78%;
-    --primary-foreground: 215 28% 17%;
+    --primary: 240 100% 45%; /* Brighter Royal Blue for dark mode */
+    --primary-foreground: 230 25% 5%;
     
-    --secondary: 215 28% 25%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 320 85% 60%; /* Brighter Magenta for dark mode */
+    --secondary-foreground: 0 0% 100%;
     
-    --muted: 215 28% 25%;
-    --muted-foreground: 217 9% 61%;
+    --muted: 230 25% 15%;
+    --muted-foreground: 230 10% 70%;
     
-    --accent: 215 28% 25%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 130 75% 65%; /* Brighter Green for dark mode */
+    --accent-foreground: 230 25% 5%;
     
-    --destructive: 0 63% 31%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 350 85% 55%; /* Brighter Maroon for dark mode */
+    --destructive-foreground: 0 0% 100%;
     
-    --border: 215 28% 25%;
-    --input: 215 28% 25%;
-    --ring: 213 94% 78%;
+    --border: 230 25% 18%;
+    --input: 230 25% 18%;
+    --ring: 240 100% 45%;
     
-    --gradient-primary: linear-gradient(135deg, hsl(213 94% 78%), hsl(213 94% 88%));
-    --gradient-hero: linear-gradient(135deg, hsl(213 94% 78%) 0%, hsl(213 94% 88%) 50%, hsl(215 28% 25%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(215 28% 17%), hsl(215 28% 25%));
-    --gradient-card: linear-gradient(145deg, hsl(215 28% 20%), hsl(215 28% 25%));
+    --gradient-primary: linear-gradient(135deg, hsl(240 100% 45%), hsl(320 85% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(240 100% 45%) 0%, hsl(320 85% 60%) 50%, hsl(130 75% 65%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(230 25% 5%), hsl(230 25% 8%));
+    --gradient-card: linear-gradient(145deg, hsl(230 25% 8%), hsl(230 25% 12%));
     
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
