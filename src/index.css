@@ -24,14 +24,14 @@ CareerCraft Design System - Professional SaaS theme with blues, whites, and grad
     --primary-light: 240 100% 45%;
     --primary-dark: 240 100% 25%;
     
-    --secondary: 320 85% 50%; /* Magenta */
+    --secondary: 220 15% 25%; /* Professional Slate */
     --secondary-foreground: 0 0% 100%;
     
     --muted: 230 25% 18%;
     --muted-foreground: 230 10% 65%;
     
-    --accent: 130 75% 55%; /* Bright Green */
-    --accent-foreground: 230 25% 8%;
+    --accent: 200 50% 45%; /* Professional Steel Blue */
+    --accent-foreground: 0 0% 100%;
     
     --destructive: 350 85% 45%; /* Maroon */
     --destructive-foreground: 0 0% 100%;
@@ -43,15 +43,15 @@ CareerCraft Design System - Professional SaaS theme with blues, whites, and grad
     --radius: 0.75rem;
     
     /* Dark Vibrant Design Tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(240 100% 35%), hsl(320 85% 50%));
-    --gradient-hero: linear-gradient(135deg, hsl(240 100% 35%) 0%, hsl(320 85% 50%) 50%, hsl(130 75% 55%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(240 100% 35%), hsl(220 15% 25%));
+    --gradient-hero: linear-gradient(135deg, hsl(240 100% 35%) 0%, hsl(200 50% 45%) 50%, hsl(220 15% 25%) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(230 25% 8%), hsl(230 25% 12%));
     --gradient-card: linear-gradient(145deg, hsl(230 25% 12%), hsl(230 25% 15%));
     
     --shadow-sm: 0 2px 4px -1px hsl(240 100% 35% / 0.2);
-    --shadow-md: 0 4px 6px -1px hsl(240 100% 35% / 0.2), 0 2px 4px -1px hsl(320 85% 50% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(240 100% 35% / 0.2), 0 4px 6px -2px hsl(320 85% 50% / 0.1);
-    --shadow-glow: 0 0 0 1px hsl(240 100% 35% / 0.1), 0 0 30px hsl(320 85% 50% / 0.3);
+    --shadow-md: 0 4px 6px -1px hsl(240 100% 35% / 0.2), 0 2px 4px -1px hsl(200 50% 45% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(240 100% 35% / 0.2), 0 4px 6px -2px hsl(200 50% 45% / 0.1);
+    --shadow-glow: 0 0 0 1px hsl(240 100% 35% / 0.1), 0 0 30px hsl(200 50% 45% / 0.3);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -80,14 +80,14 @@ CareerCraft Design System - Professional SaaS theme with blues, whites, and grad
     --primary: 240 100% 45%; /* Brighter Royal Blue for dark mode */
     --primary-foreground: 230 25% 5%;
     
-    --secondary: 320 85% 60%; /* Brighter Magenta for dark mode */
+    --secondary: 220 15% 35%; /* Professional Slate for dark mode */
     --secondary-foreground: 0 0% 100%;
     
     --muted: 230 25% 15%;
     --muted-foreground: 230 10% 70%;
     
-    --accent: 130 75% 65%; /* Brighter Green for dark mode */
-    --accent-foreground: 230 25% 5%;
+    --accent: 200 50% 55%; /* Professional Steel Blue for dark mode */
+    --accent-foreground: 0 0% 100%;
     
     --destructive: 350 85% 55%; /* Brighter Maroon for dark mode */
     --destructive-foreground: 0 0% 100%;
@@ -96,8 +96,8 @@ CareerCraft Design System - Professional SaaS theme with blues, whites, and grad
     --input: 230 25% 18%;
     --ring: 240 100% 45%;
     
-    --gradient-primary: linear-gradient(135deg, hsl(240 100% 45%), hsl(320 85% 60%));
-    --gradient-hero: linear-gradient(135deg, hsl(240 100% 45%) 0%, hsl(320 85% 60%) 50%, hsl(130 75% 65%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(240 100% 45%), hsl(220 15% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(240 100% 45%) 0%, hsl(200 50% 55%) 50%, hsl(220 15% 35%) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(230 25% 5%), hsl(230 25% 8%));
     --gradient-card: linear-gradient(145deg, hsl(230 25% 8%), hsl(230 25% 12%));
     
